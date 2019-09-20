@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/6/9 12:32:50。
+     1>项目“C:\Users\sunjian\Desktop\CG\CG\CG.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\CG.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CG.cpp CGView.cpp
+         CG.cpp
+     1>CG.cpp(80): error C2039: “classCGView”: 不是“CGView”的成员
+         c:\users\sunjian\desktop\cg\cg\CGView.h(40): note: 参见“CGView”的声明
+     1>CG.cpp(80): error C2065: “classCGView”: 未声明的标识符
+         CGView.cpp
+     1>CGView.cpp(82): error C2039: “classCGView”: 不是“CGView”的成员
+         c:\users\sunjian\desktop\cg\cg\CGView.h(40): note: 参见“CGView”的声明
+     1>CGView.cpp(82): error C2496: “classCGView”:“selectany”只能应用到有外部链接的数据项
+         c:\users\sunjian\desktop\cg\cg\CGView.h(40): note: 参见“CGView”的声明
+     1>已完成生成项目“C:\Users\sunjian\Desktop\CG\CG\CG.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.14
